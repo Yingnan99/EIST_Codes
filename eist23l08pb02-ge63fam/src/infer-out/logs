@@ -1,0 +1,185 @@
+[45][      debug] Loading models took 155ms
+[45][      debug] Sqlite write daemon: starting up
+[45][      debug] Sqlite write daemon: set up complete, waiting for connections
+[45][environment] CWD = /eist23l08pb02-exercise
+[45][environment] No .inferconfig file found
+[45][environment] Project root = /eist23l08pb02-exercise
+[45][environment] INFER_ARGS =   @/tmp/args.tmp.ce616c --progress-bar-style multiline
+[45][environment] command line arguments:   infer run -- javac
+[45][environment]                           de/tum/in/ase/eist/restaurant/profitCalculation/dead/BusinessSoftwareEngineer.java
+[45][environment]                           de/tum/in/ase/eist/restaurant/profitCalculation/dead/Main.java
+[45][environment]                           de/tum/in/ase/eist/restaurant/profitCalculation/dead/WorkingDay.java
+[45][environment] Available memory at startup: 6775 MB
+[45][environment] Active checkers: self-in-block (C/C++/ObjC), parameter-not-null-checked (C/C++/ObjC), starvation (C/C++/ObjC, Java), siof (C/C++/ObjC), racerd (C/C++/ObjC, C#/.Net, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, C#/.Net, Java)
+[45][environment] Scheduler: file
+[45][environment] Cores used: 2
+[45][environment] Infer version v1.1.0-bfb79131
+[45][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[45][environment] 
+[45][   progress] Capturing in javac mode...
+[45][      debug] Current working directory: '/eist23l08pb02-exercise'
+[45][      debug] Trying to execute: javac '-J-Duser.language=en' '@/eist23l08pb02-exercise/infer-out/tmp/javac_args.tmp.9a37ab' 2>'/eist23l08pb02-exercise/infer-out/tmp/javac.tmp.608873.out'
+[45][      debug] *** Success. Logs:
+[45][      debug] Translating 3 source files (3 classes)
+[45][      debug] done capturing all files
+[45][      debug] GC stats for capture:
+[45][      debug]   minor_words: 1.98145e+06
+[45][      debug]   promoted_words: 255317
+[45][      debug]   major_words: 271749
+[45][      debug]   minor_collections: 2
+[45][      debug]   major_collections: 0
+[45][      debug]   compactions: 0
+[45][      debug]   top_heap_words: 1331712
+[45][      debug]   
+[45][environment] Parallel jobs: 2
+[45][   progress] Found 3 source files to analyze in /eist23l08pb02-exercise/infer-out
+[67][   progress] de/tum/in/ase/eist/restaurant/profitCalculation/dead/Main.java starting
+[68][   progress] de/tum/in/ase/eist/restaurant/profitCalculation/dead/BusinessSoftwareEngineer.java starting
+[68][   progress] de/tum/in/ase/eist/restaurant/profitCalculation/dead/BusinessSoftwareEngineer.java DONE
+[68][   progress] de/tum/in/ase/eist/restaurant/profitCalculation/dead/WorkingDay.java starting
+[67][   progress] de/tum/in/ase/eist/restaurant/profitCalculation/dead/Main.java DONE
+[68][   progress] de/tum/in/ase/eist/restaurant/profitCalculation/dead/WorkingDay.java DONE
+[45][      debug] Backend stats:
+[45][      debug]   summary_file_try_load= 52
+[45][      debug]   summary_read_from_disk= 5
+[45][      debug]   summary_cache_hits= 80 (60%)
+[45][      debug]   summary_cache_misses= 52
+[45][      debug]   ondemand_procs_analyzed= 11
+[45][      debug]   proc_locker_lock_time_user= 0.00000000
+[45][      debug]   proc_locker_lock_time_sys= 0.00000000
+[45][      debug]   proc_locker_lock_time_wall= 0.00000000
+[45][      debug]   proc_locker_unlock_time_user= 0.00000000
+[45][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[45][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[45][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[45][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[45][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[45][      debug]   restart_scheduler_total_time_user= 0.00000000
+[45][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[45][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[45][      debug]   pulse_aliasing_contradictions= 0
+[45][      debug]   pulse_args_length_contradictions= 0
+[45][      debug]   pulse_captured_vars_length_contradictions= 0
+[45][      debug]   pulse_summaries_count= []
+[45][      debug]   topl_reachable_calls= 0
+[45][      debug]   timeouts= 0
+[45][      debug]   timings= timings for biabduction:
+[45][      debug]     p10: 0.000125s p20: 0.000429s p30: 0.000551s p40: 0.000900s
+[45][      debug]     p50: 0.000976s p60: 0.001467s p70: 0.001564s p80: 0.002126s
+[45][      debug]     p90: 0.004748s p95: 0.007662s p96: 0.007927s p97: 0.007927s
+[45][      debug]     p98: 0.007927s p99: 0.007927s p99.9: 0.007927s p99.99: 0.007927s 
+[45][      debug]   timings for fragment-retains-view:
+[45][      debug]     p10: 0.000000s p20: 0.000000s p30: 0.000000s p40: 0.000000s
+[45][      debug]     p50: 0.000001s p60: 0.000001s p70: 0.000001s p80: 0.000001s
+[45][      debug]     p90: 0.000002s p95: 0.000002s p96: 0.000002s p97: 0.000002s
+[45][      debug]     p98: 0.000002s p99: 0.000002s p99.9: 0.000002s p99.99: 0.000002s 
+[45][      debug]   timings for inefficient-keyset-iterator:
+[45][      debug]     p10: 0.000000s p20: 0.000000s p30: 0.000001s p40: 0.000002s
+[45][      debug]     p50: 0.000004s p60: 0.000006s p70: 0.000012s p80: 0.000018s
+[45][      debug]     p90: 0.000032s p95: 0.000042s p96: 0.000043s p97: 0.000043s
+[45][      debug]     p98: 0.000043s p99: 0.000043s p99.9: 0.000043s p99.99: 0.000043s 
+[45][      debug]   timings for racerd:
+[45][      debug]     p10: 0.000000s p20: 0.000005s p30: 0.000008s p40: 0.000022s
+[45][      debug]     p50: 0.000032s p60: 0.000040s p70: 0.000104s p80: 0.000183s
+[45][      debug]     p90: 0.000320s p95: 0.000391s p96: 0.000397s p97: 0.000397s
+[45][      debug]     p98: 0.000397s p99: 0.000397s p99.9: 0.000397s p99.99: 0.000397s 
+[45][      debug]   timings for starvation:
+[45][      debug]     p10: 0.000000s p20: 0.000005s p30: 0.000008s p40: 0.000014s
+[45][      debug]     p50: 0.000024s p60: 0.000054s p70: 0.000119s p80: 0.000157s
+[45][      debug]     p90: 0.000376s p95: 0.000601s p96: 0.000621s p97: 0.000621s
+[45][      debug]     p98: 0.000621s p99: 0.000621s p99.9: 0.000621s p99.99: 0.000621s 
+[45][      debug]   timings for preanalysis:
+[45][      debug]     p10: 0.000052s p20: 0.000083s p30: 0.000115s p40: 0.000129s
+[45][      debug]     p50: 0.000153s p60: 0.000179s p70: 0.000218s p80: 0.000250s
+[45][      debug]     p90: 0.000308s p95: 0.000361s p96: 0.000366s p97: 0.000366s
+[45][      debug]     p98: 0.000366s p99: 0.000366s p99.9: 0.000366s p99.99: 0.000366s 
+[45][      debug]   
+[45][      debug]   longest_proc_duration_heap= [
+[45][      debug]   51714us: void Main.main(String[])
+[45][      debug]   20671us: void BusinessSoftwareEngineer.sellDish(int)
+[45][      debug]   13024us: BusinessSoftwareEngineer.<init>(String)
+[45][      debug]   10539us: void BusinessSoftwareEngineer.setPartner(BusinessSoftwareEngineer)
+[45][      debug]    8153us: String BusinessSoftwareEngineer.getName()
+[45][      debug]    6876us: void BusinessSoftwareEngineer.addMoney(int)
+[45][      debug]    6580us: void BusinessSoftwareEngineer.setPartner(BusinessSoftwareEngineer)
+[45][      debug]    5871us: void WorkingDay.run()
+[45][      debug]    5755us: Main.<init>()
+[45][      debug]    4779us: WorkingDay.<init>(BusinessSoftwareEngineer)
+[45][      debug]   ]
+[45][      debug]   
+[45][      debug] GC stats for backend_stats.gc_stats_add.:
+[45][      debug]   minor_words: 7.77577e+06
+[45][      debug]   promoted_words: 79401
+[45][      debug]   major_words: 102139
+[45][      debug]   minor_collections: 8
+[45][      debug]   major_collections: 2
+[45][      debug]   compactions: 0
+[45][      debug]   top_heap_words: 3063808
+[45][      debug]   
+[45][      debug] GC stats for backend_stats.gc_stats_max.:
+[45][      debug]   minor_words: 5.03427e+06
+[45][      debug]   promoted_words: 47275
+[45][      debug]   major_words: 61661
+[45][      debug]   minor_collections: 5
+[45][      debug]   major_collections: 1
+[45][      debug]   compactions: 0
+[45][      debug]   top_heap_words: 1531904
+[45][      debug]   
+[45][      debug] Average over 2 processes
+[45][      debug] GC stats for backend_stats.gc_stats_average.:
+[45][      debug]   minor_words: 3.88789e+06
+[45][      debug]   promoted_words: 39700.5
+[45][      debug]   major_words: 51069.5
+[45][      debug]   minor_collections: 4
+[45][      debug]   major_collections: 1
+[45][      debug]   compactions: 0
+[45][      debug]   top_heap_words: 1531904
+[45][      debug]   
+[45][      debug] Analysis phase finished in 114ms
+[45][      debug] backend_stats.scheduler_process_analysis_time_user= 0.00811400
+[45][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.01422400
+[45][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.11309971
+[45][      debug] GC stats for analysis_scheduler:
+[45][      debug]   minor_words: 277670
+[45][      debug]   promoted_words: 20371
+[45][      debug]   major_words: 29746
+[45][      debug]   minor_collections: 1
+[45][      debug]   major_collections: 2
+[45][      debug]   compactions: 1
+[45][      debug]   top_heap_words: 1531904
+[45][      debug]   
+[45][     result] 
+de/tum/in/ase/eist/restaurant/profitCalculation/dead/BusinessSoftwareEngineer.java:22: warning: Thread Safety Violation
+  Read/Write race. Non-private method `BusinessSoftwareEngineer.getBalance()` reads without synchronization from `this.balance`. Potentially races with write in method `BusinessSoftwareEngineer.sellDish(...)`.
+ Reporting because another access to the same memory occurs on a background thread, although this access may not. 
+  20.   
+  21.       public int getBalance() {
+  22. >         return balance;
+  23.       }
+  24.   
+
+
+Found 1 issue
+                        Issue Type(ISSUED_TYPE_ID): #
+  Thread Safety Violation(THREAD_SAFETY_VIOLATION): 1
+
+[45][      debug] GC stats for report:
+[45][      debug]   minor_words: 25658
+[45][      debug]   promoted_words: 0
+[45][      debug]   major_words: 1819
+[45][      debug]   minor_collections: 0
+[45][      debug]   major_collections: 0
+[45][      debug]   compactions: 0
+[45][      debug]   top_heap_words: 1531904
+[45][      debug]   
+[45][      debug] GC stats for main_process_full:
+[45][      debug]   minor_words: 5.35948e+06
+[45][      debug]   promoted_words: 722627
+[45][      debug]   major_words: 1.3489e+06
+[45][      debug]   minor_collections: 11
+[45][      debug]   major_collections: 3
+[45][      debug]   compactions: 1
+[45][      debug]   top_heap_words: 1531904
+[45][      debug]   
+[46][      debug] Detected 1 spec overwrites.
+[46][      debug] Sqlite write daemon: terminating
